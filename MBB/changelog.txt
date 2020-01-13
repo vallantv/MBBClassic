@@ -1,5 +1,5 @@
 Changes
 
-v1.00:
+v1.0.0:
  - Initial Release for Classic
 
