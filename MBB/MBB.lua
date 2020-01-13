@@ -2,13 +2,13 @@
 
 	Addon to reduces minimap buttons and makes them accessible through a menu!
 	
-	Author: karlsnyder
+	Author: karlsnyder, vallantv (for Classic Version)
 	
 	Previous Authors: Tunhadil, Fixed by Pericles for patch 2.23 til 4.0, fixed by yossa for patch 4.0.1, updated for 4.2+ by karlsnyder
 	
 ]]
 
-MBB_Version = "4.0";
+MBB_Version = "1.0";
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
