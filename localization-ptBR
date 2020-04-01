@@ -1,5 +1,5 @@
 if( GetLocale() == "ptBR" ) then
-MBB_TOOLTIP1 = "Ctrl + Clique com o botão direito do mouse em um botão para anexá-lo novamente ao minimapa.";
+MBB_TOOLTIP1 = "Ctrl + Clique direito em um botão para anexá-lo novamente ao minimapa.";
 MBB_OPTIONS_HEADER = "Opções";
 MBB_OPTIONS_OKBUTTON = "Ok";
 MBB_OPTIONS_CANCELBUTTON = "Cancelar";
