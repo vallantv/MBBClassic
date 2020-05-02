@@ -79,7 +79,8 @@ MBB_Ignore = {
 	[39] = "poiMinimap",	-- QuestPointer
 	[40] = "MiniMapLFGFrame",    -- LFG
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
-	[42] = "QuestieFrame" -- Questie Fix
+	[42] = "QuestieFrame", -- Questie Fix
+	[43] = "NauticusClassicMiniIcon" -- NauticusClassic Fix
 };
 
 MBB_IgnoreSize = {
