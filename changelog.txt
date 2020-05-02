@@ -1,5 +1,9 @@
 Changes
 
+v1.1.0:
+ - Add ptBR and esES localization. Thanks woopydalan
+ - Fix for Spy and Nauticus Classic
+
 v1.0.0:
  - Initial Release for Classic
 
