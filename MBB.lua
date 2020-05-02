@@ -80,7 +80,8 @@ MBB_Ignore = {
 	[40] = "MiniMapLFGFrame",    -- LFG
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
 	[42] = "QuestieFrame", -- Questie Fix
-	[43] = "NauticusClassicMiniIcon" -- NauticusClassic Fix
+	[43] = "NauticusClassicMiniIcon", -- NauticusClassic Fix
+	[44] = "Spy_" --Spy Addon
 };
 
 MBB_IgnoreSize = {
