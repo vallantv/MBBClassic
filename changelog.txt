@@ -1,5 +1,8 @@
 Changes
 
+v1.1.1:
+ - Fix for esES and ptBR localizations not loading
+
 v1.1.0:
  - Add ptBR and esES localization. Thanks woopydalan
  - Fix for Spy and Nauticus Classic
