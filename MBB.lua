@@ -716,9 +716,13 @@ function MBB_IsKnownButton(name, opt)
 	return false;
 end
 
+local MinimapChildrenChecked = false
 function MBB_OnUpdate(elapsed)
-	if( MBB_CheckTime >= 3 ) then
-		MBB_CheckTime = 0;
+	-- let's do it only once for performance reason, there could be a thousand children that would cause some frame lag.
+	--if( MBB_CheckTime >= 3 ) then
+	if( not MinimapChildrenChecked ) then
+		--MBB_CheckTime = 0;
+		MinimapChildrenChecked = true
 		local children = {Minimap:GetChildren()};
 		for _, child in ipairs(children) do
 			if( child:HasScript("OnClick") and not child.oshow and child:GetName() and not MBB_IsKnownButton(child:GetName(), 3) ) then
@@ -729,8 +733,8 @@ function MBB_OnUpdate(elapsed)
 				end
 			end
 		end
-	else
-		MBB_CheckTime = MBB_CheckTime + elapsed;
+	--else
+		--MBB_CheckTime = MBB_CheckTime + elapsed;
 	end
 	
 	if( MBB_DragFlag == 1 and MBB_Options.AttachToMinimap == 1 ) then
