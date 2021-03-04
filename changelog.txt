@@ -1,5 +1,9 @@
 Changes
 
+v1.1.2
+ - Add tom tom map overlay to exclusion list
+ - Fix performance issue with minimap children iteration - thanks sipertruk
+
 v1.1.1:
  - Fix for esES and ptBR localizations not loading
 
