@@ -81,7 +81,8 @@ MBB_Ignore = {
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
 	[42] = "QuestieFrame", -- Questie Fix
 	[43] = "NauticusClassicMiniIcon", -- NauticusClassic Fix
-	[44] = "Spy_" --Spy Addon
+	[44] = "Spy_", --Spy Addon
+	[45] = "TomTomMapOverlay"
 };
 
 MBB_IgnoreSize = {
