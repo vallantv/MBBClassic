@@ -7,8 +7,8 @@
 	Previous Authors: Tunhadil, Fixed by Pericles for patch 2.23 til 4.0, fixed by yossa for patch 4.0.1, updated for 4.2+ by karlsnyder
 	
 ]]
-
-MBB_Version = "1.2.0";
+local addonName, mbb = ...
+MBB_Version = GetAddOnMetadata(addonName,"Version");
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
@@ -339,7 +339,7 @@ function MBB_PrepareButton(name)
 	
 	if( buttonframe ) then
 		if( buttonframe.RegisterForClicks ) then
-			buttonframe:RegisterForClicks("LeftButtonDown","RightButtonDown");
+			buttonframe:RegisterForClicks("AnyDown");
 		end
 		
 		buttonframe.isvisible = buttonframe:IsVisible();
